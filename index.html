@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Nicolás &amp; Natalia</title>
+
+	<!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+    <!-- LOADER -->
+	<div id="loader"></div>
+	<div style="display:none;" id="myDiv" class="animate-bottom"></div>
+	<!-- LOADER -->
+
+	<!-- HEADER WITH NAVBAR -->
+	<header class="container-fluid" id="portada">
+		<nav class="navbar navbar-expand-lg navbar-light" style="color: white">
+			<a class="navbar-brand" href="#" style="color: white; font-family: 'Dancing Script', cursive; font-size: 30px">Natis&Nico</a>
+			<button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="color: black">
+				<span class="navbar-toggler-icon " style="color: white"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="color: black">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-end" >
+					<li class="nav-item active">
+						<a class="nav-link" href="https://www.natisynico.com/" style="color: white">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="gallery.html" style="color: white">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="contact.html" style="color: white">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div id="titulo">
+			<p>Natalia &amp; Nicolás</p>
+		</div>
+		<div id="titulo2">
+			<p>¡Nos casamos!</p>
+		</div>
+	</header>
+	<!-- HEADER WITH NAVBAR -->
+
+
+    <!-- EVENT INFORMATION -->
+	<div class="container">
+		<div id="subtitulo">
+			<p>Matrimonio</p>
+		</div>
+		<div class="row" style="text-align: center;">
+			<div class="col-sm-6">
+				<div class="card">
+					<div class="card-body">
+						<h3 style="font-family: 'Dancing Script', cursive;">Ceremonia Principal</h3>
+						<h6> 4:30 PM - 6:00 PM</h6>
+						<h6> Sábado 16 de marzo de 2019</h6>
+						<h6> Iglesia San Jacinto, Guasca, Cundinamarca </h6>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="card">
+					<div class="card-body">
+						<h3 style="font-family: 'Dancing Script', cursive;">Celebración</h3>
+						<h6> 6:30 PM - 1:00 AM</h6>
+						<h6> Sábado 16 de marzo de 2019</h6>
+						<h6> Club La Pradera de Potosí, La Calera, Cundinamarca </h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- EVENT INFORMATION -->
+
+	<!-- FOOTER -->
+	<footer class="bg-light" style="margin-top: 20px; text-align: center">
+		<div class="container">
+			<span class="text-muted">By<a href="https://www.nicolasmoreno.info" target="_blank">Nicolás Moreno Montoya</a></span>
+		</div>
+	</footer>
+	<!-- FOOTER -->
+
+
+	<!-- Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   <!-- LOADER -->
+	<script>
+		var myVar;
+
+		function myFunction() {
+			myVar = setTimeout(showPage, 1000);
+		}
+
+		function showPage() {
+			document.getElementById("loader").style.display = "none";
+			document.getElementById("myDiv").style.display = "block";
+		}
+	</script>
+	<!-- LOADER -->
+
+</body>
+</html>
+
